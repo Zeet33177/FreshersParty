@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <title>Registration</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+<div id="topnav">
+    <br>
+<a href="/index.html">Home</a>
+<a href="/about.html">About</a>
+<a href="/regis.html">Register</a>
+  </div>
+  
+    <h1><span id="high">Reg</span>istration</h1>
+   <div id="form">
+    <div class="f-grp">
+      <input id="roll"type="number" placeholder="Roll. No." class="f-control" required>
+      <input id="name"type="text" placeholder="Enter Name" class="f-control" required>
+    </div>
+    <div class="f-wrap">
+      <input id="email" type="email" placeholder="Enter Email" class="f-control" required>
+    </div>
+    <div class="f-wrap">
+      <select name="" id="sem" class="f-control">
+        <option value="" disabled selected> Select Semester</option>
+        <option value="Sem1">Semester I</option>
+        <option value="Sem2">Semester II</option>
+        <option value="Sem3">Semester III</option>
+        <option value="Sem4">Semester IV</option>
+        <option value="Sem5">Semester V</option>
+      </select>
+    </div>
+    <div class="f-wrap">
+      <select name="" id="gen" class="f-control">
+        <option value="" disabled selected> Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="otheres">Other</option>
+      </select>
+    </div>
+    
+      <input type="checkbox" id="check">
+      <label for="check">
+      I have read and understood all the <a href="/about.html">Information</a> about the program.
+    </label>
+    </div>
+    <button id="register">Register</button>
+</body>
+
+</html>
